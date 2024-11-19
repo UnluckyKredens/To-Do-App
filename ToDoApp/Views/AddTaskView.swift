@@ -14,13 +14,15 @@ struct AddTask: View {
     @Environment(\.modelContext) private var context
     
     var body: some View {
+        Text("Add Title and content of your task").font(.title3)
         TextField("Title", text: $newTitle)
             .padding()
             .textFieldStyle(RoundedBorderTextFieldStyle())
-        TextField("Content", text: $newContent)
+        TextEditor(text: $newContent)
+            .frame(height: 100)
+            .overlay(RoundedRectangle(cornerRadius: 10).stroke(.gray.opacity(0.2) , lineWidth: 1))
             .padding()
-            .textFieldStyle(RoundedBorderTextFieldStyle())
-        
+            
         Button(action: {addTask()}) {
             Text("Add")
         }
@@ -32,6 +34,8 @@ struct AddTask: View {
         
         newTitle.removeAll()
         newContent.removeAll()
+        
+        
     }
 }
 
