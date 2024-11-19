@@ -22,6 +22,6 @@ Aplikacja powstała jako projekt edukacyjny, mający na celu poszerzenie wiedzy 
 
 ## Instalacja
 
-1. Skopiuj repozytorium na swój komputer
-2.Otwórz projekt w Xcode.
-3.Uruchom aplikację na symulatorze lub swoim urządzeniu z systemem iOS.
+- Skopiuj repozytorium na swój komputer
+- Otwórz projekt w Xcode.
+- Uruchom aplikację na symulatorze lub swoim urządzeniu z systemem iOS.
