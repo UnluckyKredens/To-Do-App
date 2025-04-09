@@ -14,7 +14,6 @@ To-Do App to prosta aplikacja do zarządzania zadaniami, stworzona w celu nauki 
 - **SwiftUI** – do budowy interfejsu użytkownika.
 - **Swift** – jako główny język programowania.
 - **SwiftData** – do zarządzania danymi aplikacji.
-- **NavigationView** – do obsługi nawigacji między widokami.
 
 ## Cel projektu
 
